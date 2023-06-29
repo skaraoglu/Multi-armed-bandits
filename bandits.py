@@ -6,7 +6,7 @@ import numpy as np
 
 # Read the command-line arguments for number of arms and number of episodes
 if len(sys.argv) < 3:
-    print("Usage: python filename.py num_arms num_episodes")
+    print("Usage: python bandits.py num_arms num_episodes")
     sys.exit(1)
 
 num_arms = int(sys.argv[1])
